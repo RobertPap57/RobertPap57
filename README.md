@@ -1,7 +1,7 @@
 <br clear="both">
 
 <div align="center">
-  <img height="200" src="header.svg"  />
+  <img height="200" src="assets/img/header.svg"  />
 </div>
 
 ###
