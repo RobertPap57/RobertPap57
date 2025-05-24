@@ -31,7 +31,7 @@
 
   <!-- Your Logo -->
   <image
-    href="assets/img/logo.png"
+    href="/assets/img/logo.png"
     x="342"
     y="0"
     width="170"
