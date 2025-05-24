@@ -1,0 +1,47 @@
+
+  
+<svg width="854" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 150" style="z-index:1;position:relative">
+  <defs>
+    <!-- Black to Greenish Ocean Blue Gradient -->
+    <linearGradient id="blackOceanGrad" gradientTransform="rotate(55)">
+      <stop offset="5%" stop-color="#000000" />
+      <stop offset="25%" stop-color="#0f3027" />
+      <stop offset="60%" stop-color="#1b5c4f" />
+      <stop offset="90%" stop-color="#227B6B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bottom Wave Layer -->
+  <path fill="url(#blackOceanGrad)" opacity="0.8">
+    <animate attributeName="d" dur="20s" repeatCount="indefinite"
+      keyTimes="0;0.5;1"
+      values="
+        M0 0L0 90Q213.5 120 427 100T854 110L854 0Z;
+        M0 0L0 105Q213.5 140 427 110T854 115L854 0Z;
+        M0 0L0 90Q213.5 120 427 100T854 110L854 0Z" />
+  </path>
+
+  <!-- Top Wave Layer -->
+  <path fill="#000000" opacity="0.25">
+    <animate attributeName="d" dur="20s" begin="-10s" repeatCount="indefinite"
+      keyTimes="0;0.5;1"
+      values="
+        M0 0L0 70Q213.5 95 427 85T854 95L854 0Z;
+        M0 0L0 85Q213.5 110 427 90T854 100L854 0Z;
+        M0 0L0 70Q213.5 95 427 85T854 95L854 0Z" />
+  </path>
+
+  <!-- Your Logo -->
+  <image
+    href="logo.png"
+    x="342"
+    y="0"
+    width="170"
+    height="100"
+    preserveAspectRatio="xMidYMid meet"
+  />
+</svg>
+
+
+
+
